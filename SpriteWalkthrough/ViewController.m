@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "HelloScene.h"
+
+#import <SpriteKit/SpriteKit.h>
 
 @interface ViewController ()
 
@@ -14,9 +17,20 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    SKView *spriteView = (SKView *) self.view;
+    spriteView.showsDrawCount = YES;
+    spriteView.showsNodeCount = YES;
+    spriteView.showsFPS = YES;
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    HelloScene* hello = [[HelloScene alloc] initWithSize:CGSizeMake(768,1024)];
+    SKView *spriteView = (SKView *) self.view;
+    [spriteView presentScene: hello];
 }
 
 - (void)didReceiveMemoryWarning {

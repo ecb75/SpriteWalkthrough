@@ -14,6 +14,9 @@
 		5BF0BD461AB4EAEB00A65512 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF0BD451AB4EAEB00A65512 /* Images.xcassets */; };
 		5BF0BD491AB4EAEB00A65512 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF0BD471AB4EAEB00A65512 /* LaunchScreen.xib */; };
 		5BF0BD551AB4EAEB00A65512 /* SpriteWalkthroughTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0BD541AB4EAEB00A65512 /* SpriteWalkthroughTests.m */; };
+		5BF0BD5F1AB4F33600A65512 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF0BD5E1AB4F33400A65512 /* SpriteKit.framework */; };
+		5BF0BD621AB4F44100A65512 /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0BD611AB4F44100A65512 /* HelloScene.m */; };
+		5BF0BD651AB4FA7900A65512 /* SpaceshipScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0BD641AB4FA7900A65512 /* SpaceshipScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		5BF0BD4E1AB4EAEB00A65512 /* SpriteWalkthroughTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteWalkthroughTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF0BD531AB4EAEB00A65512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BF0BD541AB4EAEB00A65512 /* SpriteWalkthroughTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteWalkthroughTests.m; sourceTree = "<group>"; };
+		5BF0BD5E1AB4F33400A65512 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		5BF0BD601AB4F44000A65512 /* HelloScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloScene.h; sourceTree = "<group>"; };
+		5BF0BD611AB4F44100A65512 /* HelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloScene.m; sourceTree = "<group>"; };
+		5BF0BD631AB4FA7800A65512 /* SpaceshipScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceshipScene.h; sourceTree = "<group>"; };
+		5BF0BD641AB4FA7900A65512 /* SpaceshipScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceshipScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF0BD5F1AB4F33600A65512 /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 		5BF0BD2C1AB4EAEB00A65512 = {
 			isa = PBXGroup;
 			children = (
+				5BF0BD5E1AB4F33400A65512 /* SpriteKit.framework */,
 				5BF0BD371AB4EAEB00A65512 /* SpriteWalkthrough */,
 				5BF0BD511AB4EAEB00A65512 /* SpriteWalkthroughTests */,
 				5BF0BD361AB4EAEB00A65512 /* Products */,
@@ -85,6 +95,10 @@
 				5BF0BD3D1AB4EAEB00A65512 /* AppDelegate.m */,
 				5BF0BD3F1AB4EAEB00A65512 /* ViewController.h */,
 				5BF0BD401AB4EAEB00A65512 /* ViewController.m */,
+				5BF0BD601AB4F44000A65512 /* HelloScene.h */,
+				5BF0BD611AB4F44100A65512 /* HelloScene.m */,
+				5BF0BD631AB4FA7800A65512 /* SpaceshipScene.h */,
+				5BF0BD641AB4FA7900A65512 /* SpaceshipScene.m */,
 				5BF0BD421AB4EAEB00A65512 /* Main.storyboard */,
 				5BF0BD451AB4EAEB00A65512 /* Images.xcassets */,
 				5BF0BD471AB4EAEB00A65512 /* LaunchScreen.xib */,
@@ -220,6 +234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BF0BD411AB4EAEB00A65512 /* ViewController.m in Sources */,
+				5BF0BD621AB4F44100A65512 /* HelloScene.m in Sources */,
+				5BF0BD651AB4FA7900A65512 /* SpaceshipScene.m in Sources */,
 				5BF0BD3E1AB4EAEB00A65512 /* AppDelegate.m in Sources */,
 				5BF0BD3B1AB4EAEB00A65512 /* main.m in Sources */,
 			);
